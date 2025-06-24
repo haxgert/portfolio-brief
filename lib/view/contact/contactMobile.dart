@@ -6,7 +6,6 @@ import 'package:portfolio/resource/appClass.dart';
 import '../../controller/generalController.dart';
 import '../../resource/colors.dart';
 import '../../resource/strings.dart';
-import 'contact.dart';
 
 class ContactMobile extends ConsumerStatefulWidget {
   const ContactMobile({Key? key}) : super(key: key);
@@ -86,7 +85,7 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
           Column(
             children: [
               Text(
-                '''Built & Developed by Jeevanandham''',
+                '''Built & Developed by Gert Haxija''',
                 style: TextStyle(color: AppColors().textColor, fontSize: 12, fontFamily: 'sfmono'),
               ),
               Padding(

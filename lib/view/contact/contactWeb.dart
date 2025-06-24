@@ -87,7 +87,7 @@ class _ContactWebState extends ConsumerState<ContactWeb> {
           Column(
             children: [
               Text(
-                '''Built & Developed by Jeevanandham''',
+                '''Built & Developed by Gert Haxija''',
                 style: TextStyle(color: AppColors().textColor, fontSize: 12, fontFamily: 'sfmono'),
               ),
               Padding(

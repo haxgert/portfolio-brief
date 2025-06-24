@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/resource/responsive.dart';
 import 'package:portfolio/view/game/gameAreaWeb.dart';
-import 'package:scroll_to_index/scroll_to_index.dart';
 
 import 'gameAreaMob.dart';
 import 'gameAreaTab.dart';

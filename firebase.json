@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "this-is-jeeva",
+    "site": "this-is-gert",
     "public": "build/web",
     "ignore": [
       "firebase.json",

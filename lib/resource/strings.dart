@@ -1,7 +1,7 @@
 class Strings {
   /* Intro screen contents */
   static final welcomeTxt = '''Hi, my name is''';
-  static final name = '''Jeevanandham.'''; // add . at the end
+  static final name = '''Gert Haxija'''; // add . at the end
   static final whatIdo = '''I build things for the mobile/web.'''; // add . at the end
   static final introAbout =
       '''I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at ''';
@@ -9,7 +9,7 @@ class Strings {
 
   /* About screen contents */
   static final aboutPara1 =
-      '''Hello! Myself Jeeva and I enjoy creating things that live on the internet. My interest in mobile/web development started back in 2019 when I decided to clone some applications — turns my passion into profession.''';
+      '''Hello! Myself Gert and I enjoy creating things that live on the internet. My interest in mobile/web development started back in 2019 when I decided to clone some applications — turns my passion into profession.''';
   static final aboutPara2 =
       '''Fast-forward to today, and I’ve had the privilege of working for a good organization, a product-based, a huge corporation, and a student-led working atmosphere. My main focus these days is building accessible, inclusive products and digital experiences at Netaccess for a variety of clients.''';
   static final aboutPara3 = '''I also freelance for various clients across the world. If you've any ideas about creating a project or something, feel free to contact me!''';

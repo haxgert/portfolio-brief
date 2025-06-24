@@ -36,7 +36,7 @@ class _LeftPaneState extends ConsumerState<LeftPane> {
                             height: AppClass().getMqHeight(context) * 0.07,
                             child: InkWell(
                               onTap: () async {
-                                await launchUrl(Uri.parse("https://github.com/Mr-Jeeva"));
+                                await launchUrl(Uri.parse("https://github.com/haxgert"));
                               },
                               onHover: (bol) {
                                 if (bol) {
@@ -74,7 +74,7 @@ class _LeftPaneState extends ConsumerState<LeftPane> {
                             height: AppClass().getMqHeight(context) * 0.07,
                             child: InkWell(
                               onTap: () async {
-                                await launchUrl(Uri.parse("https://www.linkedin.com/in/jeeva-hbk/"));
+                                await launchUrl(Uri.parse("https://www.linkedin.com/in/gert-haxhija-272a75369/"));
                               },
                               onHover: (bol) {
                                 if (bol) {
@@ -112,7 +112,7 @@ class _LeftPaneState extends ConsumerState<LeftPane> {
                             height: AppClass().getMqHeight(context) * 0.07,
                             child: InkWell(
                               onTap: () async {
-                                await launchUrl(Uri.parse("https://stackoverflow.com/users/19705360/mr-jeeva"));
+                                await launchUrl(Uri.parse("https://stackoverflow.com/users/19705360/mr-gert"));
                               },
                               onHover: (bol) {
                                 if (bol) {
