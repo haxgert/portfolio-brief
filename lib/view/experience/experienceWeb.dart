@@ -355,7 +355,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                                             : Colors.white,
                                         width: 2))),
                             child: Text(
-                              'Netaccess',
+                              'ISD',
                               style: TextStyle(
                                   color: data == 0
                                       ? AppColors().neonColor

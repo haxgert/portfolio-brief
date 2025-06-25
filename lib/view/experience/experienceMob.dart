@@ -306,7 +306,7 @@ class _ExperienceMobState extends State<ExperienceMob> {
                           decoration: BoxDecoration(
                               color: data == 0 ? AppColors().cardColor : Colors.transparent, border: Border(left: BorderSide(color: data == 0 ? AppColors().neonColor : Colors.white, width: 2))),
                           child: Text(
-                            'Netaccess',
+                            'ISD',
                             textAlign: TextAlign.center,
                             style: TextStyle(fontWeight: FontWeight.bold, color: data == 0 ? AppColors().neonColor : AppColors().textLight, height: 1.5, fontSize: 14, fontFamily: 'sfmono'),
                           ),

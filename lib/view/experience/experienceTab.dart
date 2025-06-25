@@ -290,7 +290,7 @@ class _ExperienceTabState extends State<ExperienceTab> {
                             decoration: BoxDecoration(
                                 color: data == 0 ? AppColors().cardColor : Colors.transparent, border: Border(left: BorderSide(color: data == 0 ? AppColors().neonColor : Colors.white, width: 2))),
                             child: Text(
-                              'Netaccess',
+                              'ISD',
                               style: TextStyle(color: data == 0 ? AppColors().neonColor : AppColors().textLight, letterSpacing: 1, height: 1.5, fontSize: 12, fontFamily: 'sfmono'),
                             ),
                           ),
