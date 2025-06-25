@@ -82,21 +82,21 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
               ],
             ),
           ),
-          Column(
-            children: [
-              Text(
-                '''Built & Developed by Gert Haxija''',
-                style: TextStyle(color: AppColors().textColor, fontSize: 12, fontFamily: 'sfmono'),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  '''ref - Britney C''',
-                  style: TextStyle(color: AppColors().neonColor, fontSize: 12, fontFamily: 'sfmono'),
-                ),
-              ),
-            ],
-          )
+          // Column(
+          //   children: [
+          //     Text(
+          //       '''Built & Developed by Gert Haxija''',
+          //       style: TextStyle(color: AppColors().textColor, fontSize: 12, fontFamily: 'sfmono'),
+          //     ),
+          //     Padding(
+          //       padding: const EdgeInsets.all(8.0),
+          //       child: Text(
+          //         '''ref - Britney C''',
+          //         style: TextStyle(color: AppColors().neonColor, fontSize: 12, fontFamily: 'sfmono'),
+          //       ),
+          //     ),
+          //   ],
+          // )
         ],
       ),
     );

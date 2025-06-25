@@ -12,9 +12,9 @@ class AppClass {
   ScrollController controller = ScrollController();
 
   /* URL */
-  static final resumeDownloadURL = '''https://gert-portfolio.s3.amazonaws.com/gert's+Resume.pdf''';
+  static final resumeDownloadURL = '''https://drive.google.com/file/d/1XV6aylFm8qg0qbXPp2Xj0vFntMW9hwnS/view?usp=sharing''';
 
-  static final gitSafeC19 = '''https://github.com/gert-HBK/SafeC19''';
+  static final gitSafeC19 = '''https://github.com/haxgert/SafeC19''';
 
   // static final gitHermarts = '''https://github.com/haxgert/SafeC19''';
   static final gitWtIot = '''https://github.com/haxgert/AutoChem''';

@@ -106,6 +106,33 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                   ],
                 ),
               ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(right: 5.0),
+                      child: Icon(
+                        Icons.arrow_right,
+                        color: AppColors().neonColor,
+                        size: 20,
+                      ),
+                    ),
+                    Container(
+                      width: AppClass().getMqWidth(context) * 0.35,
+                      child: Text(
+                        Strings.expAbout3_4,
+                        style: TextStyle(
+                            color: AppColors().textLight,
+                            letterSpacing: 1,
+                            height: 1.5,
+                            fontSize: 14,
+                            fontFamily: 'sfmono'),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           )),
       ExperienceModel(
@@ -184,6 +211,60 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                       width: AppClass().getMqWidth(context) * 0.35,
                       child: Text(
                         Strings.expAbout2_3,
+                        style: TextStyle(
+                            color: AppColors().textLight,
+                            letterSpacing: 1,
+                            height: 1.5,
+                            fontSize: 14,
+                            fontFamily: 'sfmono'),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(right: 5.0),
+                      child: Icon(
+                        Icons.arrow_right,
+                        color: AppColors().neonColor,
+                        size: 20,
+                      ),
+                    ),
+                    Container(
+                      width: AppClass().getMqWidth(context) * 0.35,
+                      child: Text(
+                        Strings.expAbout2_4,
+                        style: TextStyle(
+                            color: AppColors().textLight,
+                            letterSpacing: 1,
+                            height: 1.5,
+                            fontSize: 14,
+                            fontFamily: 'sfmono'),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(right: 5.0),
+                      child: Icon(
+                        Icons.arrow_right,
+                        color: AppColors().neonColor,
+                        size: 20,
+                      ),
+                    ),
+                    Container(
+                      width: AppClass().getMqWidth(context) * 0.35,
+                      child: Text(
+                        Strings.expAbout2_5,
                         style: TextStyle(
                             color: AppColors().textLight,
                             letterSpacing: 1,
@@ -386,7 +467,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                                             : Colors.white,
                                         width: 2))),
                             child: Text(
-                              'Rax-Tech',
+                              'iServiceIT AL',
                               style: TextStyle(
                                   color: data == 1
                                       ? AppColors().neonColor
@@ -417,7 +498,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                                             : Colors.white,
                                         width: 2))),
                             child: Text(
-                              'Techno Kryon',
+                              'NMC Soft',
                               style: TextStyle(
                                   color: data == 2
                                       ? AppColors().neonColor

@@ -26,31 +26,32 @@ class Strings {
   static final tech8 = ''' Node.js'''; // space for manual padding
 
   /* Exp screen contents */
-  static final expCompName3 = '''Techno Kryon''';
-  static final expDesig3 = '''Android Developer''';
-  static final expDur3 = '''Nov 2019 - Mar 2020''';
-  static final expAbout3 = '''To kick start my carrier in IT, joined as an Intern to gain knowledge and experience in software industry, Mobile Application Development.''';
-  static final expAbout3_2 = '''Learned and explored native Android architecture models, network calls and core functionality.''';
-  static final expAbout3_3 = '''Has worked on several live projects on different platforms such as e-commerce, ERP, CMS Applications.''';
+  static final expCompName3 = '''ISD, Tirana''';
+  static final expDesig3 = ''' Mobile App Developer''';
+  static final expDur3 = ''' Feb, 2021 - Apr, 2025''';
+  static final expAbout3 = '''Developed and maintained cross-platform mobile applications using Flutter, and Flutterflow''';
+  static final expAbout3_2 = '''Built and optimized production-ready apps with advanced state management using Flow/FlowState and clean architecture principles''';
+  static final expAbout3_3 = ''' Integrated third-party services such as Firebase, Supabase, and Auth0 for authentication, data sync, and push notifications''';
+  static final expAbout3_4 = ''' Delivered high-performance fintech, healthcare, and utility apps with responsive UI/UX Led implementation of offline-first architecture, secure API integrations, and multi-language support (i18n)''';
 
-  static final expCompName1 = '''iServiceIT AL, Tirana''';
-  static final expDesig1 = '''Mobile App Developer''';
-  static final expDur1 = '''Oct, 2018 - Dec, 2020''';
-  static final expAbout1 = ''' Developed cross-platform mobile applications with React Native and Flutter for various domains, ensuring high performance and user engagement.''';
-  static final expAbout1_2 = ''' Created native Android applications using Kotlin, focusing on fitness tracking and e-commerce functionality.''';
-  static final expAbout1_3 = '''Designed and implemented robust APIs using Retrofit and OkHttp for seamless data integration.''';
-  static final expAbout1_4 = '''Tested and debugged applications to optimize performance and enhance user experience.''';
-  static final expAbout1_5 = '''Built custom UI components leveraging MVVM architecture and modern design principles.''';
+  static final expCompName2 = '''iServiceIT AL, Tirana''';
+  static final expDesig2 = '''Mobile App Developer''';
+  static final expDur2 = '''Oct, 2018 - Dec, 2020''';
+  static final expAbout2 = ''' Developed cross-platform mobile applications with React Native and Flutter for various domains, ensuring high performance and user engagement.''';
+  static final expAbout2_2 = ''' Created native Android applications using Kotlin, focusing on fitness tracking and e-commerce functionality.''';
+  static final expAbout2_3 = '''Designed and implemented robust APIs using Retrofit and OkHttp for seamless data integration.''';
+  static final expAbout2_4 = '''Tested and debugged applications to optimize performance and enhance user experience.''';
+  static final expAbout2_5 = '''Built custom UI components leveraging MVVM architecture and modern design principles.''';
 
-  static final expCompName2 = '''ISD, Tirana''';
-  static final expDesig2 = ''' Mobile App Developer''';
-  static final expDur2 = ''' Feb, 2021 - Apr, 2025''';
-  static final expAbout2 = '''Developed and maintained cross-platform mobile applications using Flutter, and Flutterflow''';
-  static final expAbout2_2 = '''Built and optimized production-ready apps with advanced state management using Flow/FlowState and clean architecture principles''';
-  static final expAbout2_3 = ''' Integrated third-party services such as Firebase, Supabase, and Auth0 for authentication, data sync, and push notifications''';
-  static final expAbout2_4 = '''  Delivered high-performance fintech, healthcare, and utility apps with responsive UI/UX Led implementation of offline-first architecture, secure API integrations, and multi-language support (i18n)''';
+  static final expCompName1 = '''NMC Soft''';
+  static final expDesig1 = '''Android Developer''';
+  static final expDur1 = '''Jan 2018 - Oct 2018''';
+  static final expAbout1 = '''Assisted in developing and testing Android applications using Java and early Kotlin adoption.''';
+  static final expAbout1_2 = '''Supported senior developers in building UI components and integrating REST APIs for internal projects.''';
+  static final expAbout1_3 = '''Gained hands-on experience with version control (Git) and agile workflows, contributing to daily stand-ups and code reviews.''';
+
 
   /* Contact screen content */
   static final endTxt =
-      '''Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!''';
+      '''I am passionate about providing elegant and maintainable code and delivers high-quality work on time. I am not afraid of challenges and enjoy adopting new technologies to maximize development efficiency. Let's turn your app idea into a polished, high-performance solution.''';
 }
