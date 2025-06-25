@@ -1,31 +1,31 @@
 # Makefile for deploying the Flutter web projects to GitHub
 
-BASE_HREF = /$(OUTPUT)/
-# Replace this with your GitHub username
+BASE_HREF = /$(NAME)/
+# Replace with your GitHub username
 GITHUB_USER = haxgert
-GITHUB_REPO = https://github.com/$(GITHUB_USER)/$(OUTPUT)
-BUILD_VERSION := $(shell grep 'version:' pubspec.yaml | awk '{print $$2}')
+GITHUB_REPO = https://github.com/$(GITHUB_USER)/$(NAME)
+BUILD_VERSION := $(if $(NAME),$(shell grep 'version:' $(NAME)/pubspec.yaml | awk '{print $$2}'))
 
 # Deploy the Flutter web project to GitHub
 deploy:
-ifndef OUTPUT
-  $(error OUTPUT is not set. Usage: make deploy OUTPUT=<output_repo_name>)
+ifndef NAME
+  $(error NAME is not set. Usage: make deploy NAME=<name>)
 endif
 
   @echo "Clean existing repository"
-  flutter clean
+  cd $(NAME) && flutter clean
 
   @echo "Getting packages..."
-  flutter pub get
+  cd $(NAME) && flutter pub get
 
   @echo "Generating the web folder..."
-  flutter create . --platform web
+  cd $(NAME) && flutter create . --platform web
 
   @echo "Building for web..."
-  flutter build web --base-href $(BASE_HREF) --release
+  cd $(NAME) && flutter build web --base-href $(BASE_HREF) --release
 
   @echo "Deploying to git repository"
-  cd build/web && \
+  cd $(NAME)/build/web && \
   git init && \
   git add . && \
   git commit -m "Deploy Version $(BUILD_VERSION)" && \
@@ -34,6 +34,6 @@ endif
   git push -u -f origin main
 
   @echo "✅ Finished deploy: $(GITHUB_REPO)"
-  @echo "🚀 Flutter web URL: https://$(GITHUB_USER).github.io/$(OUTPUT)/"
+  @echo "🚀 Flutter web URL: https://$(GITHUB_USER).github.io/$(NAME)/"
 
 .PHONY: deploy
